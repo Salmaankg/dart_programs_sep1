@@ -10,5 +10,5 @@ int n = 10;
     }
   }
   print("sum of even numbers = $sumEven");
-  print("sum of oddn numbers = $sumOdd");
+  print("sum of odd numbers = $sumOdd");
 }
