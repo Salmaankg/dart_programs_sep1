@@ -51,5 +51,19 @@ print('-------------------------------------------------');
   print(set1.intersection(set2)); //common values in both test
   print(set1.difference(set2)); // values present in set1 and not present in set2
   print(set2.difference(set1));
+
+  /// map - store values as key-value pairs keys must be unique values can be same or different
+  /// Map<key,value>
+  var map1 ={'name':'salman','age':21,'mark':9.1,'phone':7558993969};
+  Map<String,dynamic>map2={'name':'salman','age':21,'mark':9.1,'phone':7558993969};
+  map2.addAll({'email':'salman@gmail.com'});
+  map2['pincode'] = 673661;
+  map2['mark'] = 6.33;
+  print(map2);
+  map2.forEach((key, value) {
+    print('$key:$value');
+  });
+  print(map2.containsKey('hello'));
+  print(map2.containsValue(21));
 }
 
