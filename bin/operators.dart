@@ -53,7 +53,7 @@ void main(){
   /// (if expression1 is null then expression2 will execute
   /// if expression1 is not null expression1 will execute)
 
-  var result = (username == "Admin" && password == "abc123") ?
+  var result = (username == "admin" && password == "abc123") ?
       "Welcome User" : "Incorrect username or password";
   print(result);
 
