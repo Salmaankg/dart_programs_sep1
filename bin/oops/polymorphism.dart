@@ -20,7 +20,7 @@ class ChildA extends A{
 }
 void main(){
   ChildA obj = ChildA();
-  print(obj.add(1, 2));
+  obj.add(1, 2);
   obj.display(20);
   obj.show();
 }
