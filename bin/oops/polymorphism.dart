@@ -13,6 +13,7 @@ class ChildA extends A{
     int a =100,b=200;
     print('sum = ${a+b}');
     super.display(1000);
+    show(); // super.show
   }
   int add(int a,int b){
     return a+b;
@@ -22,5 +23,5 @@ void main(){
   ChildA obj = ChildA();
   obj.add(1, 2);
   obj.display(20);
-  obj.show();
+  //obj.show();
 }
