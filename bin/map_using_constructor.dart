@@ -1,7 +1,7 @@
 void main(){
   var l1 =[1,2,3,4,5,6,7];
   var s1 ={10,20,30,40,50,60,70};
-  var m1 ={};
+  var m1 ={1:2,2:3};
   var m2 =Map();
   m2['key1'] ='value1';
   m2['key2'] ='value2';

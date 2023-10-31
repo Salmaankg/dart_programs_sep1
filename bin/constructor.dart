@@ -7,10 +7,10 @@ class A{
   // }
 
   A.name1(){
-    print('default named constructor');
+    print(' named constructor');
   }
   A.name2(int a,int b){
-    print('default named constructor with parameters $a,$b');
+    print('named constructor with parameters $a,$b');
   }
   A.a1(String name,{int? age,required int year,String course='flutter'}){
     print('name = $name');

@@ -17,7 +17,7 @@ class Child implements Father,Mother,House{
     print('Child details');
     print('name : $name');
     print('age :$age');
-    print('standerd : $std');
+    print('class : $std');
   }
   @override
   void fdetails(String name, String job, int phone) {

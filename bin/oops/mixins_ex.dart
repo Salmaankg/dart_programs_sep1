@@ -1,4 +1,4 @@
-mixin Fatherr{
+ mixin Fatherr{
   String name = 'paul';
   void fdetailss(String job,int phone);
   void show(){
